@@ -58,6 +58,8 @@ button {
     outline: none;
 }
 
+input[type="button"]{font-family: "FontAwesome";}
+
 /* Typography */
 
 h1 {
@@ -109,9 +111,13 @@ header {
 .main__searchBtn {
     display: inline-block;
     position: absolute;
-    font-size: 20px;
-    text-indent: -9999px;
-    z-index: 1;
+    font-size: 25px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    cursor: pointer;
+    margin: auto;
+    border: 0;
+    outline: 0;
 }
 .vs_search {
     position: relative;
@@ -150,7 +156,7 @@ header {
 }
 
 .main__city__explain {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
