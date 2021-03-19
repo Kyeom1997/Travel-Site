@@ -223,8 +223,12 @@ header {
 }
 
 /* Jeju Trip */
+.Jejutrip {
+    background-color:#f8f8f8;
+}
 .jeju__intro {
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
     text-align: center;
 }
 
